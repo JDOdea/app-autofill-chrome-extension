@@ -21,10 +21,6 @@ A Chrome extension that autofills application pages with saved user information 
 3. Click **Save** to store the information.
 4. When visiting a form, the extension will autofill relevant fields.
 
-## Project Structure
-/autofill-extension │── manifest.json # Extension configuration │── popup.html # UI for user input │── popup.js # Handles saving user input │── content.js # Autofills form fields on websites │── background.js # Handles extension events │── icon.png # Extension icon │── README.md # Project documentation
-
-
 ## Permissions
 - `storage`: Saves user information for autofill.
 - `scripting`: Injects autofill functionality into web pages.
