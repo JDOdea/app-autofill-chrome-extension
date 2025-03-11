@@ -1,3 +1,4 @@
+// Saves the input data in Chrome's storage.
 document.getElementById("save").addEventListener("click", () => {
     const userData = {
         name: document.getElementById("name").value,

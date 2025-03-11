@@ -1,3 +1,4 @@
+// Fills forms automatically.
 chrome.storage.sync.get("userData", (data) => {
     if (!data.userData) return;
 
